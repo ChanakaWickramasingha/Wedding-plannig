@@ -1,0 +1,127 @@
+.div1 {
+    background-color: #4B4B4B;
+    font-family: sans-serif;
+    color: #E1E2E1;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 550px;
+}
+
+.hotel_div {
+    width: auto;
+    height: 400px;
+    background-image: url(../image/hotel.jpg);
+    background-size: contain;
+    border: none;
+    filter: blur(1px);
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.hotel_div1 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #E1E2E1;
+    font-weight: 100;
+    font-size: 14px;
+    border: 3px #777877;
+    position: absolute;
+    top: 300px;
+    left: 655px;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 20%;
+    padding: 20px;
+
+}
+
+.dress_div {
+    width: auto;
+    height: 400px;
+    background-image: url(../image/dress.jpg);
+    background-size: contain;
+    border: none;
+    filter: blur(1px);
+
+}
+
+.dress_div1 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #E1E2E1;
+    font-weight: 100;
+    font-size: 14px;
+    border: 3px #777877;
+    position: absolute;
+    top: 700px;
+    left: 655px;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 20%;
+    padding: 20px;
+}
+
+.car_div {
+    width: auto;
+    height: 400px;
+    background-image: url(../image/car.jpg);
+    background-size: contain;
+    border: none;
+    filter: blur(1px);
+}
+
+.car_div1 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #E1E2E1;
+    font-weight: 100;
+    font-size: 14px;
+    border: 3px #777877;
+    position: absolute;
+    top: 1100px;
+    left: 655px;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 20%;
+    padding: 20px;
+}
+
+.photo_div {
+    width: auto;
+    height: 400px;
+    background-image: url(../image/photographers.jpg);
+    background-size: contain;
+    border: none;
+    filter: blur(1px);
+}
+
+.photo_div1 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #E1E2E1;
+    font-weight: 100;
+    font-size: 14px;
+    border: 3px #777877;
+    position: absolute;
+    top: 1500px;
+    left: 655px;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 20%;
+    padding: 20px;
+}
+
+.btn1 {
+    background-color:#DC5C41 ;
+    width: 100px;
+    height: 25px;
+    border: none;
+    margin-left: 290px;
+    border-radius: 1px;
+}
+button:hover{
+    background-color:#DF4339;
+}
