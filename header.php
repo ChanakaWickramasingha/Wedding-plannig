@@ -21,8 +21,8 @@
             </nav>
         </div>
         <div class="nav-right">
-            <button onclick="window.location.href='#signup'">Sign Up</button>
-            <button onclick="window.location.href='#signin'">Sign In</button>
+            <button onclick="window.location.href='registration.php'">Sign Up</button>
+            <button onclick="window.location.href='loginpage.php'">Sign In</button>
         </div>
     </header>
 </body>
