@@ -11,5 +11,5 @@
         die("connection is failed".$con->connect_error);
     }
 
-    echo "connection is successful!!";
+    //echo "connection is successful!!";
 ?>

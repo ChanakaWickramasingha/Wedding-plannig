@@ -1,9 +1,12 @@
 <?php
 require "config.php";
-require "header.php";
 
 $sql = "SELECT name, address, type, star, image, description, contact FROM hotel_detail";
 $result = $con->query($sql);
+?>
+
+<?php
+require "header.php";
 ?>
 
 <!DOCTYPE html>
