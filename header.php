@@ -13,7 +13,7 @@
             <h1>Wedding Shop</h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="http://localhost/wed1/guest_home.php">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about-us">About Us</a></li>
                     <li><a href="#contact-us">Contact Us</a></li>
