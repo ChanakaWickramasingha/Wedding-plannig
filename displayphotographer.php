@@ -37,3 +37,7 @@ $result = $con -> query($sql)
 
 </body>
 </html>
+
+<?php
+require "footer.php";
+?>
