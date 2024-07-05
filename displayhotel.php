@@ -19,7 +19,7 @@ require "header.php";
 </head>
 <body>
 
-<h1>Hotel Details</h1>
+<h2>Hotel Details</h2>
 <div class="hotel-list">
     <?php
     if ($result->num_rows > 0) {

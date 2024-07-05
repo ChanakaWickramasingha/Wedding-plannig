@@ -5,7 +5,7 @@ body.main-content {
     align-items: center;
 }
 
-h1 {
+h2 {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ h1 {
 }
 
 .hotel-container {
-    background: #fff;
+    background:#E8EFFC;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
