@@ -36,6 +36,13 @@ $result = $con -> query($sql);
             padding: 12px;
             text-align: left;
         }
+        .r1{
+            background-color:#FF2626;
+            border:none;
+        }
+        .r1:hover{
+            transform:scale(1.2);
+        }
     </style>
 </head>
 <body>
@@ -62,7 +69,8 @@ $result = $con -> query($sql);
                 <td><?php echo $rows['id'];?></td>
                 <td><?php echo $rows['first_name']?></td>
                 <td><?php echo $rows['mail']?></td>
-                <td><button>remove</button></td>
+                <td><button class="r1"><a href="user_delete.php?deleteid=<?php echo $rows['id']; ?>">Remove</a></button>
+                </td>
                 </tr>
         <?php
                 }
