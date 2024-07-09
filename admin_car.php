@@ -81,7 +81,8 @@ $result = $con -> query($sql)
         <td><?php echo $rows['image']?></td>
         <td><?php echo $rows['description']?></td>
         <td><?php echo $rows['contact']?></td>
-        <td><button class ="r1">remove</button> <button class = "u1">Update</button></td>
+        <td><button class ="r1"><a href = "delete_car.php?deleteid=<?php echo $rows['id']?>">Remove</a></button>
+        <button class = "u1">Update</button></td>
     </tr>
 
     <?php
