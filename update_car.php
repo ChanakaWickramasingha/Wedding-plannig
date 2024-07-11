@@ -29,14 +29,6 @@ require 'config.php';
                 <lable for = "brand">vehicle brand:</lable><br>
                 <input type = "text" id ="brand" name = "brand" value="<?php echo $row['brand']?>" ><br>
 
-                <lable for = "cartype">Type of hotel</lable>
-                <input type = "radio" id ="suv" name = "cartype"  value="<?php echo $row['type']?>">
-                <lable for = "beach">SUV</lable>
-                <input type = "radio" id ="car" name = "cartype" value="<?php echo $row['type']?>">
-                <lable for = "lake"> CAR</lable>
-                <input type = "radio" id ="van" name = "cartype"  value="<?php echo $row['type']?>">
-                <lable for = "city">VAN</lable><br><br>
-
                 <lable for = "price">Basic Price</lable><br>
                 <input type = "text" id = "price" name = "price" value="<?php echo $row['price']?>"><br>
 
