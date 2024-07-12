@@ -85,7 +85,7 @@ $result = $con -> query($sql)
                 <td><?php echo $rows['description'] ?>
                 <td><?php echo $rows['contact'] ?>
                 <td><button class = "r1"><a href = "delete_hotel.php?deleteid=<?php echo $rows['id'];?>">Remove</a></button>
-                <button class = "u1">update</button></td>
+                <button class = "u1"><a href = "update_hotel.php?updateid=<?php echo $rows['id'];?>">update</a></button></td>
             </tr>
 
     <?php
