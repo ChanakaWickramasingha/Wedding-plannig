@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<h2>Fill your hotel details</h2>
+<h2>Fill your dress details</h2>
 <form method = "POST" action = "insertdress.php">
     <lable for = "shopename">shop name:</lable><br>
         <input type = "text" id ="shopename" name = "shopename" ><br>
@@ -27,7 +27,7 @@
     <lable for = "contact" >Telphone number</lable><br>
     <input type = "tel" id = "contact" name = "contact"><br>
 
-    <button value = "submit">submit</button>
+    <button type = "submit" name = "submit">submit</button>
 
 
 
