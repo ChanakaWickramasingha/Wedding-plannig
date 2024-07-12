@@ -26,7 +26,7 @@
     <lable for = "contact" >Telphone number</lable><br>
     <input type = "tel" id = "contact" name = "contact"><br>
 
-    <button value = "submit">submit</button>
+    <button type = "submit" name = "submit">submit</button>
 
 
 

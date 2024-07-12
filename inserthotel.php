@@ -16,7 +16,7 @@ if(isset($_POST['update'])){
             image='$image',description='$description',contact='$contact' WHERE id = '$id'";
     $result = $con->query($sql);
     if($result){
-        echo "update successfully";
+        //echo "update successfully";
         header('location:admin_hotel.php');
     }
     else{
