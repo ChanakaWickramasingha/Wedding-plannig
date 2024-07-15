@@ -41,6 +41,7 @@ $result = $con -> query($sql)
             padding:3px;
             background-color:#FF2626;
             border:none;
+            border-radius:2px;
         }
         .r1:hover{
             transform:scale(1.2);
@@ -51,6 +52,7 @@ $result = $con -> query($sql)
             padding:3px;
             background-color:#20E137;
             border:none;
+            border-radius:2px;
         }
         .u1:hover{
             transform:scale(1.2);
