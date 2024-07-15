@@ -37,11 +37,36 @@ $result = $con -> query($sql);
             text-align: left;
         }
         .r1{
+            width:80px;
+            height:auto;
+            padding:3px;
+            border-radius:2px;
             background-color:#FF2626;
             border:none;
         }
         .r1:hover{
             transform:scale(1.2);
+        }
+        .home{
+            width:70px;
+            height:40px;
+            background-color:#C093F3;
+            border:none;
+            border-radius:5px;
+            margin-left:600px;
+
+        }
+        .homelink{
+            text-decoration: none;
+            color:black;
+            font-weight:bold;
+        }
+        .home:hover{
+            background-color:#AF73F1;
+        }
+        .option{
+            text-decoration: none;
+            color:black;
         }
     </style>
 </head>
@@ -69,7 +94,7 @@ $result = $con -> query($sql);
                 <td><?php echo $rows['id'];?></td>
                 <td><?php echo $rows['first_name']?></td>
                 <td><?php echo $rows['mail']?></td>
-                <td><button class="r1"><a href="user_delete.php?deleteid=<?php echo $rows['id']; ?>">Remove</a></button>
+                <td><button class="r1"><a class = "option" href="user_delete.php?deleteid=<?php echo $rows['id']; ?>">Remove</a></button>
                 </td>
                 </tr>
         <?php
@@ -78,6 +103,6 @@ $result = $con -> query($sql);
         ?>
 
     </table>
-
+    <button class = "home"><a class="homelink" href = "admin_home.php">Home</a></button>
 </body>
 </html>
