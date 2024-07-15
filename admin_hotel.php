@@ -36,6 +36,9 @@ $result = $con -> query($sql)
             text-align: left;
         }
         .r1{
+            width:80px;
+            height:auto;
+            padding:3px;
             background-color:#FF2626;
             border:none;
         }
@@ -43,21 +46,40 @@ $result = $con -> query($sql)
             transform:scale(1.2);
         }
         .u1{
+            width:80px;
+            height:auto;
+            padding:3px;
             background-color:#20E137;
             border:none;
         }
         .u1:hover{
             transform:scale(1.2);
         }
+        .home{
+            width:70px;
+            height:40px;
+            background-color:#C093F3;
+            border:none;
+            border-radius:5px;
+            margin-left:600px;
+
+        }
+        .homelink{
+            text-decoration: none;
+            color:black;
+            font-weight:bold;
+        }
+        .home:hover{
+            background-color:#AF73F1;
+        }
+        .option{
+            text-decoration: none;
+            color:black;
+        }
     </style>
 </head>
 <body>
 <h2>Update Details</h2>
-    <button>user details</button>
-    <button>hotel details</button>
-    <button>Wedding car details</button>
-    <button>Wedding dress details</button>
-    <button>photographer details</button>
 
     <h3>edit hotel detais</h3>
     <table>
@@ -84,8 +106,8 @@ $result = $con -> query($sql)
                 <td><?php echo $rows['image'] ?>
                 <td><?php echo $rows['description'] ?>
                 <td><?php echo $rows['contact'] ?>
-                <td><button class = "r1"><a href = "delete_hotel.php?deleteid=<?php echo $rows['id'];?>">Remove</a></button>
-                <button class = "u1"><a href = "update_hotel.php?updateid=<?php echo $rows['id'];?>">update</a></button></td>
+                <td><button class = "r1"><a class = "option" href = "delete_hotel.php?deleteid=<?php echo $rows['id'];?>">Remove</a></button>
+                <button class = "u1"><a class = "option" href = "update_hotel.php?updateid=<?php echo $rows['id'];?>">update</a></button></td>
             </tr>
 
     <?php
@@ -93,6 +115,7 @@ $result = $con -> query($sql)
         $con->close()
     ?>
     </table>
+    <button class = "home"><a class="homelink" href = "admin_home.php">Home</a></button>
 
 </body>
 </html>
