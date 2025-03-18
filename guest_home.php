@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class = div1>
-        welcome our wac wedding shop
+        WELCOME our wac wedding shop
     </div>
 
 
