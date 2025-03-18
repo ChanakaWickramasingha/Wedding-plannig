@@ -1,0 +1,63 @@
+body.main-content {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.car-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car {
+    background: #E8EFFC;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.car:hover {
+    transform: scale(1.05);
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.car h3 {
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.car p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.car p strong {
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .car-listings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car {
+        width: 90%;
+    }
+}

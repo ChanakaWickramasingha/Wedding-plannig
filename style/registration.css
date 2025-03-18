@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../image/regpage.jpg");
+    background-size: cover;
+
+}
+
+
+
+form {
+    width: 30%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.submit {
+    height: 35px;
+    width: 400px;
+    font-family: sans-serif;
+    color: azure;
+    font-size: 16px;
+    background-color: #1F9613;
+    border: none;
+    border-radius: 5px;
+    display: block;
+
+}
+
+.submit:hover {
+    background-color: #0D8301;
+}
+
+#span1 {
+    font-size: 15px;
+    color: red;
+}
